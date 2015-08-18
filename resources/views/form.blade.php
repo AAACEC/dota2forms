@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>[AAACEC] Dota Team - Seletiva</title>
+	<title>[AAACEC] DotA 2 Team - Seletiva</title>
 
 	{!! Helpers::css() !!}
 	{!! Helpers::js()  !!}
@@ -28,25 +28,25 @@
 <body>
 	<div class="container">
 		<div class="header clearfix">
-			<h3 class="text-muted">[AAACEC] Dota Team - Seletiva</h3>
+			<h3 class="text-muted">[AAACEC] DotA 2 Team - Seletiva</h3>
 		</div>
 
 		<div class="row marketing">
 			<div class="col-lg-12">
 				{!! Form::horizontal() !!}
 					<div class="form-group">
-						<label for="name">Nome Completo</label>
+						<label for="name">Nome Completo*</label>
 						<input type="text" class="form-control" name="name" required>
 					</div>
 
 					<div class="form-group">
-						<label for="nick">Nickname</label>
+						<label for="nick">Nickname*</label>
 						<span class="help-block">Nick que utilizará durante as seletivas</span>
 						<input type="text" class="form-control" name="nick" required>
 					</div>
 
 					<div class="form-group">
-						<label for="course">Curso</label>
+						<label for="course">Curso*</label>
 						<span class="help-block">ATENÇÃO: Caso você não estude na Unicamp, coloque seu curso e universidade na opção "Outro"</span>
 						<div class="radio">
 							<label>
@@ -101,28 +101,28 @@
 
 					<div class="form-group">
 						<label for="ra">Número do RA</label>
-						<input type="text" class="form-control" name="ra" required>
+						<input type="text" class="form-control" name="ra">
 					</div>
 
 					<div class="form-group">
-						<label for="steam_link">Link da Steam</label>
+						<label for="steam_link">Link da Steam*</label>
 						<span class="help-block">Ex: <a href="#">www.steamcommunity.com/id/jogadorX</a></span>
 						<input type="text" class="form-control" name="steam_link" required>
 					</div>
 
 					<div class="form-group">
-						<label for="skype_name">Nome Skype</label>
+						<label for="skype_name">Nome Skype*</label>
 						<input type="text" class="form-control" name="skype_name" required>
 					</div>
 
 					<div class="form-group">
-						<label for="solo_mmr">MMR Solo</label>
+						<label for="solo_mmr">MMR Solo*</label>
 						<span class="help-block">Escreva seu MMR solo médio</span>
 						<input type="number" class="form-control" name="solo_mmr" required>
 					</div>
 
 					<div class="form-group">
-						<label for="position">Posição(ões) que Joga</label>
+						<label for="position">Posição(ões) que Joga*</label>
 						<div class="checkbox">
 							<label>
 								<input type="checkbox" name="position_hc" value="">
@@ -181,7 +181,7 @@
 					</div>
 
 					<div class="form-group">
-						<label for="solo_mmr">Marque todos os horários que você poderia treinar com o time.</label>
+						<label for="solo_mmr">Marque todos os horários que você poderia treinar com o time.*</label>
 						<span class="help-block">Isso é apenas uma aproximação para analisar qual seria o melhor horário para marcar o treino do time. Caso você possa treinar entre as 19h e as 20h45 marque a opção "19h - 21h". Caso tenha alguma observação escreva nos comentários no fim do formulário.</span>
 						<table class="table table-striped table-condensed text-center">
 							<thead>
@@ -211,34 +211,34 @@
 					</div>
 
 					<div class="form-group">
-						<label for="course">Equipamentos Necessários</label>
+						<label for="course">Equipamentos Necessários*</label>
 						<span class="help-block">Você tem os equipamentos (conexão de internet, disponibilidade de uso do computador etc.) necessários para jogar com estabilidade? Caso tenha alguma observação escreva nos comentários no fim do formulário.</span>
 						<div>
 							<label class="radio-inline">
 								Nunca
 							</label>
 							<label class="radio-inline">
-								<input type="radio" name="course" value="1">
+								<input type="radio" name="equip" value="1">
 								&nbsp;
 							</label>
 
 							<label class="radio-inline">
-								<input type="radio" name="course" value="2">
+								<input type="radio" name="equip" value="2">
 								&nbsp;
 							</label>
 
 							<label class="radio-inline">
-								<input type="radio" name="course" value="3">
+								<input type="radio" name="equip" value="3">
 								&nbsp;
 							</label>
 
 							<label class="radio-inline">
-								<input type="radio" name="course" value="4">
+								<input type="radio" name="equip" value="4">
 								&nbsp;
 							</label>
 
 							<label class="radio-inline">
-								<input type="radio" name="course" value="5">
+								<input type="radio" name="equip" value="5">
 								&nbsp;
 							</label>
 							<label class="radio-inline">

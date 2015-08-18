@@ -14,3 +14,10 @@
 Route::get('/', function () {
 	return view('form');
 });
+
+Route::post('/', function () {
+	$json = json_encode(Input::all());
+	App\Submission::create(compact('json'));
+
+	return view('thanks');
+});
