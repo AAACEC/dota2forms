@@ -111,13 +111,18 @@
 					</div>
 
 					<div class="form-group">
+						<label for="steam_link">Link do Facebook*</label>
+						<span class="help-block">Ex: <a href="#">https://www.facebook.com/jogadorX</a></span>
+						<input type="text" class="form-control" name="facebook_link" required>
+					</div>
+
+					<div class="form-group">
 						<label for="skype_name">Nome Skype*</label>
 						<input type="text" class="form-control" name="skype_name" required>
 					</div>
 
 					<div class="form-group">
 						<label for="solo_mmr">MMR Solo*</label>
-						<span class="help-block">Escreva seu MMR solo médio</span>
 						<input type="number" class="form-control" name="solo_mmr" required>
 					</div>
 

@@ -33,7 +33,8 @@
 
 		<div class="row marketing">
 			<div class="col-lg-12">
-				<h3>Obrigado por responder! <abbr title="as mina">Agorá é só esperar...</abbr></h3>
+				<h3>Obrigado pela inscrição! Entraremos em contato com mais informações sobre as seletivas em breve!</h3>
+				<h3><abbr title="as mina">Agorá é só esperar...</abbr></h3>
 			</div>
 		</div>
 
