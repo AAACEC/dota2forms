@@ -1,7 +1,7 @@
 @extends('form')
 
 @section('title')
-	[AAACEC] CS:GO Team - Seletiva
+	[AAACEC] DotA 2 Team - Seletiva
 @endsection
 
 @section('questions')
