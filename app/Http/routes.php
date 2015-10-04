@@ -11,13 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-	return view('form');
+Route::get('/{form}', function ($form) {
+	return view($form);
 });
 
-Route::post('/', function () {
+Route::post('/{form}', function ($form) {
 	$json = json_encode(Input::all());
-	App\Submission::create(compact('json'));
+	App\Submission::create(compact('form', 'json'));
 
 	return view('thanks');
 });
