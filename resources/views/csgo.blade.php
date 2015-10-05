@@ -64,7 +64,7 @@
 	@include('question.text', [
 		'name' => 'skype',
 		'label' => 'Nome no Skype',
-		'required' => true,
+		'required' => false,
 	])
 
 	@include('question.radio', [
