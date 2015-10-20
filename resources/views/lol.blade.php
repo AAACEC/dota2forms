@@ -63,13 +63,11 @@
 		'required' => true,
 		'other'    => true,
 		'options'  => [
-			['text' => 'Hard Carrier', 'value' => 'hc'],
+			['text' => 'Add Carry', 'value' => 'adc'],
 			['text' => 'Mid Laner', 'value' => 'ml'],
-			['text' => 'Offlaner', 'value' => 'off'],
+			['text' => 'Top Laner', 'value' => 'tl'],
 			['text' => 'Support', 'value' => 'sup'],
-			['text' => 'Semi Support', 'value' => 'ssup'],
 			['text' => 'Jungler', 'value' => 'jng'],
-			['text' => 'Roamer', 'value' => 'roam'],
 		],
 	])
 
