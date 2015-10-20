@@ -5,10 +5,9 @@
 @endsection
 
 @section('specifics')
-	@include('question.url', [
-		'name' => 'steam',
-		'label' => 'Link da Steam',
-		'help' => 'Ex: http://steamcommunity.com/id/jogadorX',
+	@include('question.text', [
+		'name' => 'summoner',
+		'label' => 'Nome do Summoner',
 		'required' => true,
 	])
 
