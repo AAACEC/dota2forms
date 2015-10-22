@@ -25,7 +25,12 @@ Route::post('/{form}', function ($form) {
 Route::get('/{form}/report/{pass}', function ($form, $pass) {
 	if ($pass == env('FORMS_PASSWORD')) {
 		$submissions = App\Submission::where(compact('form'))->get();
+		$results = [];
 
-		return response()->json($submissions);
+		foreach ($submissions as $submission) {
+			array_push($results, json_decode($submission->json));
+		}
+
+		return response()->json($results);
 	}
 });
