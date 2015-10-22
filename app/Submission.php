@@ -11,5 +11,5 @@ class Submission extends Model
 	 *
 	 * @var array
 	 */
-	protected $fillable = ['json'];
+	protected $fillable = ['form', 'json'];
 }
