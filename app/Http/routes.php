@@ -21,3 +21,11 @@ Route::post('/{form}', function ($form) {
 
 	return view('thanks');
 });
+
+Route::get('/{form}/report/{pass}', function ($form, $pass) {
+	if ($pass == env('FORMS_PASSWORD')) {
+		$submissions = App\Submission::all();
+
+		return response()->json($submissions);
+	}
+});
