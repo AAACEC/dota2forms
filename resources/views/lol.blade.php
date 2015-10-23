@@ -63,7 +63,7 @@
 		'required' => true,
 		'other'    => true,
 		'options'  => [
-			['text' => 'Add Carry', 'value' => 'adc'],
+			['text' => 'Ad Carry', 'value' => 'adc'],
 			['text' => 'Mid Laner', 'value' => 'ml'],
 			['text' => 'Top Laner', 'value' => 'tl'],
 			['text' => 'Support', 'value' => 'sup'],
